@@ -13,8 +13,8 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: devops-app-c5
-        image: manjukolkar007/test-dev:latest
+      - name: devops-app-c1
+        image: vinodkj81/CICD:250926
         ports:
         - containerPort: 80
 ---
