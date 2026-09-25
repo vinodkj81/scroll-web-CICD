@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'manjukolkar007/test-dev:latest'
         DEPLOY_FILE  = 'deploy.yaml'
-        DOMAIN       = 'cicd-project.duckdns.org'
+        DOMAIN       = 'cicd-vinod.duckdns.org'
     }
 
     stages {
