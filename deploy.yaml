@@ -39,7 +39,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: cicd-project.duckdns.org
+  - host: cicd-vinod.duckdns.org
     http:
       paths:
       - path: /
