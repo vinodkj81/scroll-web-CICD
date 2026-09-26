@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: devops-app-c1
-        image: vinodkj81/CICD:250926
+        image: vinodkj81/CICD:260926
         ports:
         - containerPort: 80
 ---
