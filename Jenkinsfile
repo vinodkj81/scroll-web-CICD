@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'vinodkj81/CICD:260926'
+        DOCKER_IMAGE = 'vinodkj81/cicd:${BUILD_NUMBER}'
         DEPLOY_FILE  = 'deploy.yaml'
         DOMAIN       = 'cicd-vinod.duckdns.org'
     }
